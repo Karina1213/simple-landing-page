@@ -1,0 +1,61 @@
+.barmy-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.barmy-title {
+    background: url(../../../img/gr.jpg) no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 2em;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+    font-family: Outrun, SansSerif;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.barmy-title__barmy {
+    font-size: 220px;
+    padding: 180px 0 0 0;
+}
+
+@media (max-width: 900px) {
+    .barmy-title__barmy {
+        font-size: 150px;
+
+
+    }
+}
+
+
+.barmy-title__graffiti {
+    font-size: 60px;
+    padding: 70px 0 80px 0;
+}
+
+@media (max-width: 600px) {
+    .barmy-title__barmy {
+        font-size: 100px;
+    }
+
+    .barmy-title__graffiti {
+        font-size: 35px;
+    }
+
+}
+@media (max-width: 380px) {
+    .barmy-title__barmy {
+        font-size: 70px;
+    }
+
+    .barmy-title__graffiti {
+        font-size: 30px;
+    }
+
+}

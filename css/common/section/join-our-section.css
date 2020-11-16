@@ -1,0 +1,29 @@
+.join-our-section {
+    margin-top: -300px;
+    background-image: url("../../../img/bg-section-1.png");
+    background-size: cover;
+}
+
+@media (max-width: 1650px) {
+    .join-our-section {
+        margin-top: 0;
+    }
+}
+
+.join-our-article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.join-our-article__title {
+    padding-top: 322px;
+    padding-bottom: 50px;
+    color: #ff0000;
+}
+
+.images-section > img {
+    max-width: 393px;
+    width: 100%;
+    height: auto;
+}

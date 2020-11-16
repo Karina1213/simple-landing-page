@@ -1,0 +1,20 @@
+.link {
+    padding: 15px 63px 18px;
+    margin-bottom: 150px;
+    background-color: #FFFFFF;
+    font-family: Outrun, SansSerif;
+}
+
+.link_hovered:hover {
+    background-color: #b7c1c4;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.watch-more {
+    color: #000000;
+}
+
+.join-now {
+    color: #ff0000;
+}

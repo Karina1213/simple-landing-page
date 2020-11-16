@@ -1,0 +1,33 @@
+.photo-section {
+    background-color: black;
+}
+
+.photo-block {
+    transform: translateY(-150px);
+    display: flex;
+    justify-content: center;
+}
+
+.photo {
+    cursor: pointer;
+    width: 100%;
+    height: auto;
+}
+@media (max-width: 1650px) {
+    .photo-block {
+        padding: 40px 0;
+        background-color: black;
+        transform: unset;
+        flex-wrap: wrap;
+    }
+
+    .photo{
+        width: 80%;
+    }
+}
+.photo_hovered:hover {
+    box-sizing: border-box;
+    box-shadow: 10px -10px 10px red;
+    transition: all .2s ease-in-out;
+    transform: scale(1.1);
+}

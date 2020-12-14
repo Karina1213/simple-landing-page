@@ -1,0 +1,24 @@
+.photo-block {
+    transform: translateY(140%);
+    display: flex;
+    justify-content: center;
+}
+
+.photo {
+    cursor: pointer;
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 1650px) {
+    .photo-block {
+        padding: 40px 0;
+    }
+}
+
+.photo_hovered:hover {
+    box-sizing: border-box;
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgb(191, 45, 45);
+    transition: all .2s ease-in-out;
+    transform: scale(1.1);
+}

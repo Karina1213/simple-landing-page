@@ -6,6 +6,7 @@
 @import 'common/section/top-section.css';
 @import "common/section/description-section.css";
 @import "common/section/join-our-section.css";
-@import "common/section/images-section.css";
+@import "common/section/photo-section.css";
 @import 'mixes/mixes.css';
 @import "common/section/common.css";
+@import "common/header/header.css";

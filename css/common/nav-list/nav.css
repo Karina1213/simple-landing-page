@@ -1,5 +1,5 @@
 .nav {
-    padding: 134px 0 0;
+    padding-top: 134px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,14 +14,24 @@
 }
 
 .nav-list {
-    max-width: 608px;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+}
+@media (max-width: 470px) {
+    .nav-list{
+       flex-direction: column;
+    }
 }
 
-.nav-list__ {
-    font-size: 24pt;
+.nav-list__item {
+    margin: 0 50px;
+}
+
+@media (max-width: 900px) {
+    .nav-list__item {
+        margin: 2px 20px;
+    }
 }
 
 .nav-list__link {

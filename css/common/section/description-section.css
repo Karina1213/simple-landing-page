@@ -1,20 +1,15 @@
 .description-section {
-    background-image: url("../../../img/bg-3.png");
-    background-size: cover;
-    backdrop-filter: brightness(0%);
+    padding-top: 266px;
+    padding-bottom: 550px;
+    background: url("../../../img/bg-3.jpeg") center/cover no-repeat;
 }
 
-.description-article {
+.description {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.description-article__title {
-    padding-top: 266px;
+.description__title {
     color: #FFFFFF;
-}
-
-.description-article__content {
-    padding-bottom: 300px;
 }
